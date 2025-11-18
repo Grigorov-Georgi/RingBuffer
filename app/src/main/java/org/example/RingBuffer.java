@@ -1,7 +1,5 @@
 package org.example;
 
-import com.google.j2objc.annotations.Property.Suppress;
-
 public class RingBuffer<T> {
     private int size = 0;
     private final int capacity;
